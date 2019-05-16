@@ -1,0 +1,7 @@
+{
+    "**/*.{js,vue}": [
+      "./node_modules/.bin/eslint --fix",
+      "./node_modules/.bin/prettier --write",
+      "git add"
+    ]
+}
